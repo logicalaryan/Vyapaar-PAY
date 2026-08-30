@@ -21,7 +21,17 @@ export const REVENUE_TREND_7D = [
     recoveredRevenue: 2400,
     baselineRevenue: 36000,
     transactions: 112,
-    recoveredOrders: 4
+    recoveredOrders: 4,
+    targetedCount: 6,
+    conversionRate: '66.7%',
+    cumulativeRecovered: 2400,
+    triggersUsed: 'Lapsed Frequency (15d+) & Morning Cart Drop',
+    agentActionSummary: 'Automated 10% UPI Razorpay Link via WhatsApp',
+    targetedCustomers: [
+      { name: 'Ananya Deshmukh', phone: '+91 97654 32109', status: 'Recovered', amount: '₹1,890', trigger: 'Lapsed 15d', action: '8% Restock Voucher', time: '11:20 AM' },
+      { name: 'Devendra Patel', phone: '+91 98980 66231', status: 'Recovered', amount: '₹510', trigger: 'Cart Drop', action: 'Free Add-on UPI Link', time: '02:40 PM' },
+      { name: 'Manish Gupta', phone: '+91 98111 23456', status: 'Ignored', amount: '-', trigger: 'Lapsed 18d', action: '10% Win-back Link', time: '04:15 PM' }
+    ]
   },
   {
     day: 'Tue',
@@ -30,7 +40,17 @@ export const REVENUE_TREND_7D = [
     recoveredRevenue: 3100,
     baselineRevenue: 38100,
     transactions: 125,
-    recoveredOrders: 5
+    recoveredOrders: 5,
+    targetedCount: 7,
+    conversionRate: '71.4%',
+    cumulativeRecovered: 5500,
+    triggersUsed: 'Basket Shrinkage (<₹1k) & Tuesday Inactive Alert',
+    agentActionSummary: 'VIP Gourmet Cross-Sell & Flat ₹100 Coupon QR Link',
+    targetedCustomers: [
+      { name: 'Karan Singhania', phone: '+91 98210 77410', status: 'Recovered', amount: '₹1,200', trigger: 'Basket Shrink', action: 'Flat ₹100 Coupon Link', time: '10:05 AM' },
+      { name: 'Rohan Sharma', phone: '+91 98450 99881', status: 'Recovered', amount: '₹1,150', trigger: 'Lapsed 12d', action: '10% Dynamic Pay Link', time: '01:30 PM' },
+      { name: 'Pooja Agarwal', phone: '+91 97650 11223', status: 'Recovered', amount: '₹750', trigger: 'Basket Shrink', action: 'Free Dairy Voucher', time: '05:10 PM' }
+    ]
   },
   {
     day: 'Wed',
@@ -39,7 +59,16 @@ export const REVENUE_TREND_7D = [
     recoveredRevenue: 1800,
     baselineRevenue: 35000,
     transactions: 104,
-    recoveredOrders: 3
+    recoveredOrders: 3,
+    targetedCount: 5,
+    conversionRate: '60.0%',
+    cumulativeRecovered: 7300,
+    triggersUsed: 'Mid-Week Velocity Dip & Dormancy Alert',
+    agentActionSummary: 'Mid-Week Flash 12% Link + SMS Channel Fallback',
+    targetedCustomers: [
+      { name: 'Sunita Chawla', phone: '+91 98199 65432', status: 'Recovered', amount: '₹950', trigger: 'Mid-Week Drop', action: 'SMS Fallback Pay Link', time: '09:12 AM' },
+      { name: 'Venkatesh Iyer', phone: '+91 94440 88921', status: 'Recovered', amount: '₹850', trigger: 'Dormancy 6d', action: 'Free Express Delivery', time: '03:45 PM' }
+    ]
   },
   {
     day: 'Thu',
@@ -48,7 +77,16 @@ export const REVENUE_TREND_7D = [
     recoveredRevenue: 2900,
     baselineRevenue: 41600,
     transactions: 131,
-    recoveredOrders: 4
+    recoveredOrders: 4,
+    targetedCount: 6,
+    conversionRate: '66.7%',
+    cumulativeRecovered: 10200,
+    triggersUsed: 'Pantry Replenishment Cycle Prediction',
+    agentActionSummary: 'Personalized Staples Restock Link with 10% Cap',
+    targetedCustomers: [
+      { name: 'Sanjay Reddy', phone: '+91 99887 76655', status: 'Recovered', amount: '₹1,450', trigger: 'Restock Cycle', action: 'Personalized Staples Link', time: '11:15 AM' },
+      { name: 'Tanvi Rao', phone: '+91 98200 33441', status: 'Recovered', amount: '₹1,450', trigger: 'Lapsed 14d', action: '10% Welcome-Back QR', time: '04:20 PM' }
+    ]
   },
   {
     day: 'Fri',
@@ -57,7 +95,16 @@ export const REVENUE_TREND_7D = [
     recoveredRevenue: 4200,
     baselineRevenue: 48400,
     transactions: 156,
-    recoveredOrders: 6
+    recoveredOrders: 6,
+    targetedCount: 8,
+    conversionRate: '75.0%',
+    cumulativeRecovered: 14400,
+    triggersUsed: 'Weekend Pre-Order Signal & High-LTV Churn Risk',
+    agentActionSummary: 'High-Value VIP Win-Back 15% Razorpay Direct Link',
+    targetedCustomers: [
+      { name: 'Neha Kapoor', phone: '+91 99104 33201', status: 'Recovered', amount: '₹3,120', trigger: 'High-LTV Churn (53d)', action: '15% VIP Direct Link', time: '04:20 PM' },
+      { name: 'Vikram Sethi', phone: '+91 98110 55442', status: 'Recovered', amount: '₹1,080', trigger: 'Pre-Weekend Cart', action: '10% Weekend Unlock', time: '07:15 PM' }
+    ]
   },
   {
     day: 'Sat',
@@ -66,7 +113,17 @@ export const REVENUE_TREND_7D = [
     recoveredRevenue: 4800,
     baselineRevenue: 55000,
     transactions: 178,
-    recoveredOrders: 7
+    recoveredOrders: 7,
+    targetedCount: 9,
+    conversionRate: '77.8%',
+    cumulativeRecovered: 19200,
+    triggersUsed: 'Saturday Peak Volume & Gourmet Bundle Basket Upsell',
+    agentActionSummary: 'VIP Gourmet Combo Bundle Link with Complimentary Olive Oil',
+    targetedCustomers: [
+      { name: 'Priya Sundaram', phone: '+91 98450 12890', status: 'Recovered', amount: '₹2,450', trigger: 'Basket Shrink', action: 'VIP Gourmet Bundle Link', time: '09:44 AM' },
+      { name: 'Deepak Sharma', phone: '+91 98765 43210', status: 'Recovered', amount: '₹1,350', trigger: 'Saturday Special', action: 'Flat ₹150 OFF Link', time: '01:10 PM' },
+      { name: 'Rajesh Kulkarni', phone: '+91 98440 11992', status: 'Recovered', amount: '₹1,000', trigger: 'Lapsed 10d', action: '10% UPI Link', time: '06:30 PM' }
+    ]
   },
   {
     day: 'Sun (Today)',
@@ -75,7 +132,17 @@ export const REVENUE_TREND_7D = [
     recoveredRevenue: 3800,
     baselineRevenue: 44450,
     transactions: 142,
-    recoveredOrders: 5
+    recoveredOrders: 5,
+    targetedCount: 6,
+    conversionRate: '83.3%',
+    cumulativeRecovered: 23000,
+    triggersUsed: 'Sunday Morning Footfall Dip & 28-Day Lapsed Alert',
+    agentActionSummary: '10% Dynamic Razorpay UPI Link on WhatsApp & 12% Flash Promo',
+    targetedCustomers: [
+      { name: 'Rahul Mehta', phone: '+91 98201 44512', status: 'Dispatched (Link Active)', amount: '₹1,305 (Pending)', trigger: 'Lapsed 28d', action: '10% WhatsApp UPI Link', time: '10:28 AM' },
+      { name: 'Amitabh Joshi', phone: '+91 97112 88761', status: 'Dispatched (Link Active)', amount: '₹850 (Active)', trigger: 'Sunday Morning Slow Dip', action: '12% Flash Pay Link', time: '08:30 AM' },
+      { name: 'Devendra Patel', phone: '+91 98980 66231', status: 'Recovered', amount: '₹1,645', trigger: 'Bakery Add-on', action: 'Instant UPI Link', time: '07:45 AM' }
+    ]
   }
 ];
 
