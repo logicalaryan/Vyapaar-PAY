@@ -290,10 +290,10 @@ export default function FlaggedCustomersTable({
                       {customer.statusCode === 'pending' && (
                         <button
                           onClick={() => onTriggerManualAction(customer)}
-                          className="px-2 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs transition-colors shadow-sm"
+                          className="p-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white transition-colors shadow-sm flex items-center justify-center"
                           title="Dispatch Campaign Now"
                         >
-                          Dispatch
+                          <Send className="w-3.5 h-3.5" />
                         </button>
                       )}
                     </div>
